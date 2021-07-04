@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Módulo I\\PrimeiraAplicação (MVC)"
+    "\\Módulo I",
+    "\\Módulo I\\PrimeiraAplicação (MVC)",
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação",
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views",
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Categorias"
   ],
-  "SelectedNode": "\\Módulo I",
+  "SelectedNode": "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Categorias\\Details.cshtml",
   "PreviewInSolutionExplorer": false
 }
