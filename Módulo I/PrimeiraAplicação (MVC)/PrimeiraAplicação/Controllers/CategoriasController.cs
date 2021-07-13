@@ -49,9 +49,17 @@ namespace PrimeiraAplicação.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(Categoria categoria)
         {
-            categorias.Add(categoria);
-            categoria.CategoriaId = categorias.Select(m => m.CategoriaId).Max() + 1;
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                categorias.Add(categoria);
+                categoria.CategoriaId = categorias.Select(m => m.CategoriaId).Max() + 1;
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View();
+            }
+            
         }
 
         [HttpPost]

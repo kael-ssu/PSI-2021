@@ -4,9 +4,13 @@
     "\\Módulo I",
     "\\Módulo I\\PrimeiraAplicação (MVC)",
     "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação",
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Context",
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Controllers",
     "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views",
-    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Categorias"
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Categorias",
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Fabricantes",
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Shared"
   ],
-  "SelectedNode": "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Categorias\\Details.cshtml",
+  "SelectedNode": "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Controllers\\FabricantesController.cs",
   "PreviewInSolutionExplorer": false
 }
