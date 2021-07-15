@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<PrimeiraAplicação.Models.Categoria>
 @{
-    Layout = "~/Views/Shared/_LayoutCategorias.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Listagem de CATEGORIAS";
 }
 <div class="panel panel-primary">
@@ -47,12 +47,16 @@
 @section styles{
     <link href="@Url.Content("~/content/DataTables/css/dataTables.bootstrap.css")" rel="stylesheet" />
 }
-@section ScriptPage{
-    <script src="@Url.Content("~/scripts/DataTables/jquery.dataTables.js")"></script>
+@section ScriptPage {
+    <script src=" @Url.Content("~/scripts/DataTables/jquery.dataTables.js")"></script>
     <script src="@Url.Content("~/scripts/DataTables/dataTables.bootstrap.js")"></script>
     <script type="text/javascript">
-$(document).ready(function () {
-$('.table').dataTable();
-});
+        $(document).ready(function () {
+            $('li').removeClass("active");
+            $('#liCategorias').addClass("active");
+            $('.table').dataTable({
+                "order": [[1, "asc"]]
+            });
+        });
     </script>
 }

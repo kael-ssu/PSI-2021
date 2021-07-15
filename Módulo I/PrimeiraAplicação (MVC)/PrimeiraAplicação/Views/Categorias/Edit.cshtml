@@ -1,6 +1,6 @@
 ﻿@model PrimeiraAplicação.Models.Categoria
 @{
-    Layout = "~/Views/Shared/_LayoutCategorias.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Alterando os dados de uma CATEGORIA";}
 @using (Html.BeginForm())
 {
@@ -40,7 +40,15 @@
     </div>
 }
 @section ScriptPage {
-    <script src="~/Scripts/jquery.validate.min.js"></script>
-    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src=" @Url.Content("~/scripts/DataTables/jquery.dataTables.js")"></script>
+    <script src="@Url.Content("~/scripts/DataTables/dataTables.bootstrap.js")"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('li').removeClass("active");
+            $('#liCategorias').addClass("active");
+            $('.table').dataTable({
+                "order": [[1, "asc"]]
+            });
+        });
+    </script>
 }
-

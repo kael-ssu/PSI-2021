@@ -1,6 +1,6 @@
 ﻿@model PrimeiraAplicação.Models.Categoria
 @{
-    Layout = "~/Views/Shared/_LayoutCategorias.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Visualizando detalhes de uma CATEGORIA";
 }
 <div class="panel panel-primary">
@@ -33,3 +33,16 @@
         }
     </div>
 </div>
+@section ScriptPage {
+    <script src=" @Url.Content("~/scripts/DataTables/jquery.dataTables.js")"></script>
+    <script src="@Url.Content("~/scripts/DataTables/dataTables.bootstrap.js")"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('li').removeClass("active");
+            $('#liCategorias').addClass("active");
+            $('.table').dataTable({
+                "order": [[1, "asc"]]
+            });
+        });
+    </script>
+}
