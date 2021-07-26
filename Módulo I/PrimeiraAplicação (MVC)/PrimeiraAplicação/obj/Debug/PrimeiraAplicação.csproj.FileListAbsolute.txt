@@ -158,3 +158,10 @@ C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Primeira
 C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\PrimeiraAplicação\obj\Debug\PrimeiraAplicação.csproj.CopyComplete
 C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\PrimeiraAplicação\obj\Debug\PrimeiraAplicação.dll
 C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\PrimeiraAplicação\obj\Debug\PrimeiraAplicação.pdb
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\PrimeiraAplicação\bin\Modelo.dll
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\PrimeiraAplicação\bin\Modelo.pdb
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\PrimeiraAplicação\bin\Servico.dll
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\PrimeiraAplicação\bin\Persistencia.dll
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\PrimeiraAplicação\bin\Servico.pdb
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\PrimeiraAplicação\bin\Persistencia.pdb
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\PrimeiraAplicação\bin\Persistencia.dll.config

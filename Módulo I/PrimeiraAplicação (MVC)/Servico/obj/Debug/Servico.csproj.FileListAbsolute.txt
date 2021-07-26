@@ -1,0 +1,14 @@
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Servico\bin\Debug\Servico.dll
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Servico\bin\Debug\Servico.pdb
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Servico\bin\Debug\Modelo.dll
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Servico\bin\Debug\Persistencia.dll
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Servico\bin\Debug\EntityFramework.dll
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Servico\bin\Debug\Modelo.pdb
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Servico\bin\Debug\Persistencia.pdb
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Servico\bin\Debug\Persistencia.dll.config
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Servico\bin\Debug\EntityFramework.xml
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Servico\obj\Debug\Servico.csproj.AssemblyReference.cache
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Servico\obj\Debug\Servico.csproj.CoreCompileInputs.cache
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Servico\obj\Debug\Servico.csproj.CopyComplete
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Servico\obj\Debug\Servico.dll
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Servico\obj\Debug\Servico.pdb

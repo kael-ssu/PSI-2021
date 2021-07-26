@@ -1,0 +1,6 @@
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Modelo\bin\Debug\Modelo.dll
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Modelo\obj\Debug\Modelo.dll
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
