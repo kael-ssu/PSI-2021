@@ -4,12 +4,12 @@
     "\\Módulo I",
     "\\Módulo I\\PrimeiraAplicação (MVC)",
     "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação",
-    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Controllers",
     "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views",
-    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Categorias",
     "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Fabricantes",
     "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Produtos",
-    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Shared"
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Shared",
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\Servico",
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\Servico\\Cadastros"
   ],
   "SelectedNode": "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Produtos\\Index.cshtml",
   "PreviewInSolutionExplorer": false

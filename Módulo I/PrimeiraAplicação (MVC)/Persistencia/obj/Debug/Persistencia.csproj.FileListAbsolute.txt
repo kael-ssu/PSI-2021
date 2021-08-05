@@ -12,3 +12,5 @@ C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Persiste
 C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Persistencia\obj\Debug\Persistencia.csproj.CopyComplete
 C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Persistencia\obj\Debug\Persistencia.dll
 C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Persistencia\obj\Debug\Persistencia.Migrations.InitialCreate.resources
+C:\Users\Kael\Source\Repos\PSI-2021\Módulo I\PrimeiraAplicação (MVC)\Persistencia\obj\Debug\Persistencia.csproj.GenerateResource.cache
