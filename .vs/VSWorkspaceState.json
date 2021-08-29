@@ -4,13 +4,13 @@
     "\\Módulo I",
     "\\Módulo I\\PrimeiraAplicação (MVC)",
     "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação",
-    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views",
-    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Fabricantes",
-    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Produtos",
-    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Shared",
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Areas",
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Areas\\Seguranca",
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Areas\\Seguranca\\Models",
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\DAL",
     "\\Módulo I\\PrimeiraAplicação (MVC)\\Servico",
     "\\Módulo I\\PrimeiraAplicação (MVC)\\Servico\\Cadastros"
   ],
-  "SelectedNode": "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Produtos\\Index.cshtml",
+  "SelectedNode": "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\DAL\\IdentityDbContextAplicacao.cs",
   "PreviewInSolutionExplorer": false
 }
