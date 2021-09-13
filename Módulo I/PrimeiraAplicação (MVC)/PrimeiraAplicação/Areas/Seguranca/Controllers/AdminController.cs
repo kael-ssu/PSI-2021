@@ -19,6 +19,7 @@ namespace PrimeiraAplicação.Areas.Seguranca.Controllers
             }
         }
         // GET: Seguranca/Admin
+        [Authorize(Roles = "Administradores")]
         public ActionResult Index()
         {
             return View(GerenciadorUsuario.Users);
@@ -133,6 +134,27 @@ namespace PrimeiraAplicação.Areas.Seguranca.Controllers
             {
                 return HttpNotFound();
             }
+        }
+
+        public ActionResult Details(string id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(
+                HttpStatusCode.BadRequest);
+            }
+            Usuario usuario = GerenciadorUsuario.FindById(id);
+            if (usuario == null)
+            {
+                return HttpNotFound();
+            }
+
+            //return View(usuario);
+            var uvm = new UsuarioViewModel();
+            uvm.Id = usuario.Id;
+            uvm.Nome = usuario.UserName;
+            uvm.Email = usuario.Email;
+            return View(uvm);
         }
     }
 }

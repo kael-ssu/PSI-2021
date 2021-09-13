@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using PrimeiraAplicação.Infraestrutura
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -11,14 +12,30 @@
     <div class="container">
         <div class="row">
             <div class="page-header bg-danger">
-                <h1>
-                    Desenvolvimento em ASP.NET MVC
-                    <small class="text-danger">
-                        Utilizando o Bootstrap
-                    </small>
-                </h1>
+                <div>
+                    <h1>
+                        Desenvolvimento em ASP NET MVC
+                        <small class="text-danger">
+                            Utilizando o Bootstrap
+                        </small>
+                    </h1>
+                </div>
+                <div style="text-align:right;">
+                    @{
+                        if (Html.GetAuthenticatedUser().ToString() != "")
+                        {
+                            @Html.GetAuthenticatedUser();
+                            @Html.ActionLink(" - Sair", "Logout", "Account")
+                        }
+                        else
+                        {
+                            @Html.ActionLink("Acessar", "Login", "Account",
+                            new { area = "Seguranca" }, null);
+                        }
+                    }
+                </div>
             </div>
-        </div>
+            </div>
     </div>
 
     <div class="row">

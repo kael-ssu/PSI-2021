@@ -23,8 +23,12 @@
                     <th>
                         @Html.DisplayNameFor(model => model.Nome)
                     </th>
-                    <th>Categoria</th>
-                    <th>Fabricante</th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Categoria)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Fabricante)
+                    </th>
                 </tr>
             </thead>
             <tbody>
@@ -62,7 +66,7 @@
     <link href="@Url.Content("~/content/DataTables/css/dataTables.bootstrap.css")" rel="stylesheet">
 }
 @section ScriptPage {
-    <script src=" @Url.Content("~/scripts/DataTables/jquery.dataTables.js")"></script>
+    <script src="@Url.Content("~/scripts/DataTables/jquery.dataTables.js")"></script>
     <script src="@Url.Content("~/scripts/DataTables/dataTables.bootstrap.js")"></script>
     <script type="text/javascript">
         $(document).ready(function () {
