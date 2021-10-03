@@ -5,14 +5,12 @@
     "\\Módulo I\\PrimeiraAplicação (MVC)",
     "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação",
     "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Areas",
-    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Areas\\Cadastros",
-    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Areas\\Cadastros\\Views",
-    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Areas\\Cadastros\\Views\\Produtos",
-    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views",
-    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Shared",
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Areas\\Home",
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Areas\\Home\\Views",
+    "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Areas\\Home\\Views\\Home",
     "\\Módulo I\\PrimeiraAplicação (MVC)\\Servico",
     "\\Módulo I\\PrimeiraAplicação (MVC)\\Servico\\Cadastros"
   ],
-  "SelectedNode": "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\Módulo I\\PrimeiraAplicação (MVC)\\PrimeiraAplicação\\Areas\\Home\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

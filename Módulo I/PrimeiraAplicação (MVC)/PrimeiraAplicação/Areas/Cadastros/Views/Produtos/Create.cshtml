@@ -3,7 +3,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Registrando um NOVO PRODUTO";
 }
-@using (Html.BeginForm())
+@using (Html.BeginForm("Create", "Produtos", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
     @Html.AntiForgeryToken()
     <div class="panel panel-primary">
@@ -12,6 +12,14 @@
         </div>
         <div class="panel-body">
             @Html.Partial("~/Areas/Cadastros/Views/Produtos/_PartialEditContentPanel.cshtml", Model)
+            @Html.HiddenFor(model => model.ProdutoId)
+            @Html.HiddenFor(model => model.LogotipoMimeType)
+            @Html.HiddenFor(model => model.Logotipo)
+            <div class="col-md-offset-7 col-md-5">
+                <div class="form-group">
+                    @Html.TextBox("logotipo", "", new { type = "file" }) <br />
+                </div>
+            </div>
             <div class="panel-footer panel-info">
                 <div class="col-md-offset-2 col-md-10">
                     <input type="submit" value="Adicionar Produto" class="btn btn-danger" />
@@ -22,7 +30,7 @@
                 <br />
             </div>
         </div>
-    </div>
+        </div>
 }
 @section ScriptPage {
     <script type="text/javascript">
